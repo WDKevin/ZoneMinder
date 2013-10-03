@@ -1,6 +1,6 @@
 <?php $this->start('sidebar'); ?>
 <div class="sidebar-group">
-  <p class="sidebar-group-heading">Monitors</p>
+  <p class="sidebar-group-heading drawer">Monitors</p>
   <ul class="sidebar-group-items">
     <li><?php echo $this->Html->link( 'Add Monitor', array('controller' => 'monitors', 'action' => 'add')); ?></li>
     <li><?php echo $this->Html->link( 'Delete Monitor', array('controller' => 'monitors', 'action' => 'delete')); ?></li>

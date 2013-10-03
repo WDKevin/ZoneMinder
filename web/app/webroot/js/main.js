@@ -1,5 +1,13 @@
 $(document).ready(function() {
 	
+  // Sidebar //
+    // Collapse //
+    $('body').on('click', '.sidebar-group-heading.drawer', function() {
+      $(this).parent('.sidebar-group').find('.sidebar-group-items').slideToggle();
+    });
+    // Collapse //
+  // Sidebar //
+  
   // Date/Time Pickers //
   $('.datetime').datetimepicker({
     pick12HourFormat: true,
